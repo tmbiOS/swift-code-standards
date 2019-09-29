@@ -1,8 +1,27 @@
 # Swift Team Code Standards
 
-[TOC]
+- [Swift Team Code Standards](#swift-team-code-standards)
+  * [Integrated development environment](#integrated-development-environment)
+  * [iOS architecture](#ios-architecture)
+    + [Posts](#posts)
+  * [App architecture](#app-architecture)
+    + [Development flow](#development-flow)
+    + [Code structure](#code-structure)
+      - [The rule of threes](#the-rule-of-threes)
+    + [Models](#models)
+      - [Making models expressible by string interpolation.](#making-models-expressible-by-string-interpolation)
+    + [Posts](#posts-1)
+  * [Tips](#tips)
+    + [Architecture](#architecture)
+      - [Using child view controllers as plugins in Swift](#using-child-view-controllers-as-plugins-in-swift)
+      - [Reusable data sources in Swift](#reusable-data-sources-in-swift)
+      - [TableViewCellPresenter](#tableviewcellpresenter)
+  * [Tools](#tools)
+    + [Generate Xcode project](#generate-xcode-project)
+    + [Generate documentation](#generate-documentation)
+    + [Coverage reports](#coverage-reports)
 
-## Integrated development environment (IDE)
+## Integrated development environment
 
 * Use latest **Xcode** version (**Xcode 11**).
 
@@ -62,7 +81,7 @@ try loadFile(at: "~/documents/article.md")
 
 [Using child view controllers as plugins in Swift](https://www.swiftbysundell.com/articles/using-child-view-controllers-as-plugins-in-swift/)
 
-[Reusable data sources in Swift](https://www.swiftbysundell.com/articles/reusable-data-sources-in-swift/ "Reusable data sources in Swift)
+[Reusable data sources in Swift](https://www.swiftbysundell.com/articles/reusable-data-sources-in-swift/)
 
 [Preventing views from being model aware in Swift](https://www.swiftbysundell.com/articles/preventing-views-from-being-model-aware-in-swift/)
 
